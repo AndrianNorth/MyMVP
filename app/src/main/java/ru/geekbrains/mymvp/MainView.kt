@@ -1,5 +1,7 @@
 package ru.geekbrains.mymvp
 
 interface MainView {
-    fun setButtonText(index: Int, text: String)
+    fun setCounterOneText(index: Int, text: String)
+    fun setCounterTwoText(index: Int, text: String)
+    fun setCounterThreeText(index: Int, text: String)
 }
