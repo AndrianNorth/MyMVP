@@ -1,7 +1,9 @@
-package ru.geekbrains.mymvp
+package ru.geekbrains.mymvp.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ru.geekbrains.mymvp.presenter.MainPresenter
+import ru.geekbrains.mymvp.view.MainView
 import ru.geekbrains.mymvp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), MainView {

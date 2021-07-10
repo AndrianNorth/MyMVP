@@ -1,4 +1,7 @@
-package ru.geekbrains.mymvp
+package ru.geekbrains.mymvp.presenter
+
+import ru.geekbrains.mymvp.view.MainView
+import ru.geekbrains.mymvp.model.CountersModel
 
 class MainPresenter(val view: MainView) {
     val model = CountersModel()

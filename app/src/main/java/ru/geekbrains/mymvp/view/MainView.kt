@@ -1,4 +1,4 @@
-package ru.geekbrains.mymvp
+package ru.geekbrains.mymvp.view
 
 interface MainView {
     fun setCounterOneText(index: Int, text: String)

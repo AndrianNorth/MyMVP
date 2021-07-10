@@ -1,4 +1,4 @@
-package ru.geekbrains.mymvp
+package ru.geekbrains.mymvp.model
 
 class CountersModel {
 
